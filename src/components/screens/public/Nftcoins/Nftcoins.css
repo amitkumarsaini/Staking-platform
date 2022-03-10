@@ -1,0 +1,209 @@
+.stake-btn {
+  background: var(--redtable-border);
+}
+.greenactive .stake-btn {
+  background: linear-gradient(90deg, #5fe37f 10.48%, #171821 100%);
+}
+.greenactive .stake-btn:hover {
+  background: var(--green);
+}
+.stake-btn:hover {
+  background: var(--tableheading);
+}
+.table-sort .btn {
+  max-width: 135px;
+}
+.dark-text {
+  color: var(--white);
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.bold {
+  font-weight: 700;
+}
+.count-time {
+  margin: 20px 0;
+}
+.count-time h4 {
+  color: var(--lockedText);
+}
+.count-time p {
+  color: var(--textcolor);
+  font-weight: 600;
+}
+.modal_body .title-line {
+  font-style: italic;
+  font-size: 14px;
+}
+.terms-condition h5 {
+  color: var(--white);
+}
+.terms-condition p {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.terms-condition a {
+  color: var(--white);
+}
+.range-wrap {
+  width: 290px;
+  position: relative;
+}
+.range-value {
+  position: absolute;
+  top: 0px;
+  background: #d1332d;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 8px;
+  font-size: 10px;
+  width: 50px;
+  height: 29px;
+  right: -53px;
+  text-align: center;
+}
+.range-value span {
+  width: 30px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #d1332d;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 6px;
+}
+.range-value span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #ddd;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -1px;
+}
+@media screen and (max-width: 767px) {
+  .count-time h4 {
+    font-size: 16px;
+  }
+  .modal_header {
+    flex-direction: column;
+  }
+  .modal_body label {
+    font-size: 14px;
+  }
+}
+.drop-value {
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  border-radius: 70px;
+  color: var(--white);
+  height: 42px;
+  width: 200px;
+  cursor: pointer;
+  padding: 0 24px;
+  background-color: transparent;
+  background: url(../../../../theme/images/arrow-down.svg);
+  background-repeat: no-repeat;
+  appearance: none;
+  background-position: center right 20px;
+  margin: 0 auto;
+}
+.drop-value:focus {
+  background-color: transparent;
+  color: var(--white);
+  box-shadow: unset;
+  border-color: var(--white);
+}
+.green-tab {
+}
+
+.greenactive .green-tab:before {
+  background: var(--greentableborder);
+}
+.greenactive .greenactive .stake-btn {
+  background: var(--greentableborder);
+}
+
+.xiv_range {
+  font-size: 11px;
+  color: #136dfa !important;
+}
+.balance_info {
+  margin-left: 30px;
+}
+.token-drop {
+  margin-right: 10px;
+}
+.token-drop .btn {
+  padding: 8px 10px;
+  width: 100px;
+  font-size: 12px;
+  height: 35px;
+}
+
+.pull-left {
+  float: left;
+}
+.token-drop .dropdown-toggle::after {
+  margin-left: 0;
+  margin-top: 6px;
+}
+.confirm-btn {
+  font-size: 12px;
+  line-height: 16px;
+  height: 36px;
+  padding: 10px;
+  max-width: 123px;
+}
+
+.coin-logo {
+  margin-right: 2px;
+  border-radius: 50%;
+}
+.dropdown-menu {
+  background-color: var(--tabDefaultbgColor);
+}
+.dropdown-menu a {
+  color: var(--white);
+}
+.MuiSlider-markLabelActive {
+  color: var(--white);
+}
+
+.MuiSlider-markLabel {
+  color: var(--white) !important;
+}
+
+
+select option {
+  margin: 40px;
+  background-color: var(--tabDefaultbgColor);
+
+}
+
+
+.optiontext{
+  color: #fff;
+}
+.subline-text{
+  color: var(--connectWallet);
+  text-align: center;
+margin-top: 60px!important;
+font-size: 12px!important;
+margin-right: 20px;
+}
+
+img.coin-logo.ml-5 {
+  margin-left: 5px;
+}

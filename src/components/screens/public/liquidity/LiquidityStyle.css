@@ -1,0 +1,225 @@
+.detail_btnStyle{
+    margin-left: 35px;
+    font-family: var(--baseFont);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--lightText);
+    border:1px solid var(--lightText);
+    width: 97px;
+    height: 42px;
+    border-radius: 35px;
+    min-width: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .25s;
+    cursor: pointer;
+}
+.detail_btnStyle:hover{
+    background-color: var(--lightText);
+    color: var(--white);
+}
+.poolcard_style{
+    background: var(--cardBg);
+    border-radius: 30px;
+    padding:30px;
+}
+.poolcard_style__title{
+    font-family: var(--baseFont);    
+    color: var(--lightText);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.poolcard_style__subTitle{
+    font-family: var(--baseFont);
+    color: var(--white);
+    font-size: 43px;
+    line-height: 43px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.poolcard_style__items{
+    display: flex;
+    font-display: row;
+    border-bottom: 1px solid var(--lightText);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.poolcard_style__items li{
+    flex:1;
+}
+.poolcard_style__items li p{
+    font-family: var(--baseFont);
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+.poolcard_style__avai p{
+    color: var(--avaiText);
+}
+.poolcard_style__Locked p{ 
+    color: var(--lockedText);
+}
+.poolcard_style__items li strong{
+    font-family: var(--baseFont);
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 700;
+}
+.pool_info{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.addInverse_liquidity{
+    padding-top: 45px;
+    padding-left: 100px;    
+}
+.addInverse_liquidity_form label.form-label{
+    font-family: var(--baseFont);
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+.form-control-liquidity{
+    position: relative;
+}
+.form-control-liquidity .form-control{
+    font-family: var(--baseFont);
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--white);
+    height: 56px;
+    border: 1px solid #06B5CA;
+    border-radius: 70px;
+    background-color: transparent;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.min_value_style{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    font-family: var(--baseFont);
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--lightText);
+    top: 19px;
+    right: 30px;
+}
+.allowExcess{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.allowExcess_label{
+    font-family: var(--baseFont);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    margin-right: 10px;
+}
+.buttonAddLiquidity_style{
+    background:linear-gradient(90deg, #1ED6DC 0.36%, #171821 95.6%) !important;
+    margin-left: 20px;
+}
+.buttonAddLiquidity_style:hover{
+    background:linear-gradient(90deg, #1ED6DC 0.36%, #1ED6DC 95.6%) !important;   
+}
+
+@media screen and (max-width:767px){
+    .addInverse_liquidity_form label.form-label {
+ 
+        font-size: 16px;
+     
+        padding-left: 0;
+    }
+    .addInverse_liquidity {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    .pool_info {
+        margin-top: 10px;
+        padding-left:15px;
+        padding-right: 15px;
+    }
+    .poolcard_style {
+  
+        padding: 30px 15px;
+    }
+    .poolcard_style__title {
+   
+        font-size: 16px;
+     
+    }
+    .poolcard_style__subTitle {
+    
+        font-size: 20px;
+        line-height: 20px;
+   
+    }
+    .poolcard_style__items li strong {
+        font-size: 20px;
+   
+    }
+    .min_value_style {
+     
+        top: 10px;
+    }
+    .form-control-liquidity .form-control {
+        font-size: 16px;
+  
+        height: 40px;
+     
+    }
+    .allowExcess_label {
+        font-size: 14px;
+  
+    }
+    .allowExcess {
+        margin-top: 15px;
+      
+    }
+}
+
+
+.max_button{
+    top: 7px;
+    right: -2px;
+    color: #fff !important;
+}
+
+#popover-basic {
+    background-color: var(--bodyBg);
+}
+
+.popover-body {
+    color: var(--white);
+}
+
+.light-theme #popover-basic{
+    background-color: var(--lightthme) !important;
+}
+
+.light-theme .popover-body {
+    color: var(--textcolor) !important;
+}
+.popover-arrow::after {
+    border-right-color: var(--bodyBg) !important;
+}
+.light-theme .popover-arrow::after {
+    border-right-color: var(--lightthme) !important;
+}

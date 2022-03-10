@@ -1,0 +1,101 @@
+.linkGroup_style li.platform-tab a {
+  background: var(--redtable-border);
+}
+
+.title-line p {
+  margin-top: 42px;
+  font-size: 18px;
+  line-height: 21px;
+}
+.deficol {
+  display: flex;
+  margin-top: 95px;
+}
+.redactive {
+  background-image: url(../../../../theme/images/platform-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: -1;
+  background-size: contain;
+}
+.greenactive {
+  background-image: url(../../../../theme/images/greenbg.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: -1;
+  background-size: contain;
+}
+.fixed-tabs {
+  /* border-bottom: 1px solid #2f303b; */
+  border-bottom: none;
+  position: relative;
+}
+.fixed-tabs:before {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  top: 50px;
+  content: " ";
+  background: var(--redtable-border);
+  box-shadow: 0px 18px 14px rgb(0 0 0 / 14%);
+  border-radius: 30px;
+}
+
+.greenactive .green-tab .nav-link.active {
+  background: var(--greentableborder) !important;
+}
+
+.redactive .green-tab .nav-link.active {
+  background: var(--redtable-border) !important;
+}
+
+.redactive .nav-item.show .nav-link,
+.fixed-tabs .nav-link.active {
+  color: #fff;
+  border: none;
+  border-radius: 4px 4px 0 0;
+}
+.fixed-tabs .nav-link {
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0;
+  border: none;
+  background-color: var(--tabDefaultbgColor);
+  border-radius: 4px 4px 0 0;
+  padding: 13px 35px;
+}
+.fixed-tabs .nav-link:hover {
+  border: none;
+}
+.fixed-tabs .nav-link:focus {
+  border: none;
+}
+@media screen and (max-width: 1199px) {
+  .deficol {
+    margin-top: 30px;
+  }
+  .title-line p {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+  }
+  .redactive {
+    background-size: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .title-line p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .coin-group li {
+    font-size: 16px;
+  }
+  .fixed-tabs .nav-link {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .fixed-tabs:before {
+    top: 35px;
+  }
+}

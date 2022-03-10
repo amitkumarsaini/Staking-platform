@@ -1,0 +1,93 @@
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.modal_header p {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 500;
+}
+.red-text {
+  color: var(--lockedText);
+  font-weight: 700;
+  font-size: 20px;
+}
+h3.modal-heading {
+  text-transform: uppercase;
+  color: var(--white);
+}
+.modal-header {
+  width: 100%;
+  flex-direction: column;
+  padding: 1rem 3rem 0rem;
+  border: none;
+}
+.modal_header {
+  border-bottom: 2px solid var(--lockedText);
+}
+.modal-header .btn-close {
+  margin: 0;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  filter: brightness(0) invert(4);
+
+}
+.modal_body {
+  width: 100%;
+  padding-top: 30px;
+}
+.modal_body .form-control {
+  background: transparent;
+  border-color: var(--textcolor);
+}
+.modal_body label {
+  color: var(--white);
+  font-weight: 500;
+}
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    max-width: 850px;
+  }
+}
+form.token-col {
+  display: flex;
+  align-items: center;
+}
+form.token-col .form-control {
+  margin-right: 10px;
+  max-width: 100px;
+  color: var(--white);
+}
+.MuiSlider-markLabelActive {
+  color: var(--white);
+}
+@media screen and (max-width: 767px) {
+  .red-text {
+    font-size: 14px;
+  }
+  .modal_header p {
+    font-size: 13px;
+
+    margin-bottom: 10px;
+  }
+  h3.modal-heading {
+    font-size: 16px;
+  }
+}
+.heading-logo {
+  width: 35px;
+}
+.modal-content {
+  background-color: var(--bodyBg);
+}
+.greenactive .modal_header {
+  border-bottom: 2px solid var(--green);
+}
+.greenactive .red-text {
+  color: var(--green);
+}

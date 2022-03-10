@@ -1,0 +1,10 @@
+.headerAdmin__Style{
+    border-bottom: 1px solid var(--tableHeaderBorder);
+    margin-bottom: 25px;    
+}
+
+.headerAdmin__Style h2{
+    font-family: var(--baseFont);
+    font-size: 26px;
+    font-weight: 400;
+}

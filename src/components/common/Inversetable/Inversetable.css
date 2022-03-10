@@ -1,0 +1,173 @@
+.inverse-table th {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  padding: 15px;
+  border: none;
+}
+.inverse-table {
+  margin-bottom: 30px;
+  
+}
+.inverse-table td .canvasjs-chart-canvas {
+  position: relative !important;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+@media(max-width: 991px) {
+  .inverse-table td .canvasjs-chart-container{
+
+    width: 150px;
+  }
+}
+
+.inverse-table .bold {
+  font-weight: 700;
+}
+.inverse-table td {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 40px 15px;
+  vertical-align: middle;
+  border: none;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--tablebg);
+}
+.inverse-table .green-txt {
+  background: var(--greentext);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.inverse-table .yellow-text {
+  color: var(--connectWallet);
+}
+.table > :not(caption) > * > * {
+  box-shadow: unset;
+}
+.inverse-table img {
+  margin-right: 10px;
+  max-width: 40px;
+}
+.inverse-table .unstake-btn {
+  background: var(--greybtn);
+}
+.inverse-table .unstake-btn:hover {
+  background: #6a6971;
+}
+@media screen and (max-width: 991px) {
+  .inverse-table {
+    white-space: nowrap;
+  }
+  .inverse-table td {
+    font-size: 14px;
+
+    padding: 10px 15px;
+  }
+  .bnb-icon {
+    max-width: 30px;
+  }
+}
+.negative {
+  color: var(--red) !important;
+  position: relative;
+}
+.positive {
+  color: var(--green) !important;
+  position: relative;
+}
+
+.negative:before {
+  content: "\A";
+  border-style: solid;
+  border-width: 10px 14px 10px 0;
+  border-color: transparent var(--red) transparent transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid var(--red);
+  margin-right: 0.225rem;
+  vertical-align: middle;
+  display: inline-block;
+  border-bottom: 0;
+}
+
+.positive:before {
+  /* content: "\A";
+  border-style: solid;
+  border-width: 10px 14px 10px 0;
+  border-color: transparent var(--green) transparent transparent;
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid var(--green); */
+}
+.positive:before {
+
+    display: inline-block;
+    margin-right: .255em;
+    vertical-align: middle;
+    content: "";
+    border-top: 0;
+    border-right: .5em solid transparent;
+    border-bottom:.5em solid var(--green);
+    border-left: .5em solid transparent;
+
+}
+.negative-down{
+  color: var(--red)!important;
+}
+.bold{
+  font-weight: 700!important;
+}
+.negative-down:before {
+
+  display: inline-block;
+  margin-right: .255em;
+  vertical-align: middle;
+  content: "";
+  border-top: 0;
+
+
+  border-left: .5em  solid transparent;
+  border-right: .5em  solid transparent;
+  border-top: .5em  solid var(--red);
+
+}
+
+table .positive:before {
+  left: -1px;
+  top: 40%;
+}
+
+.indicatorDiv {
+  padding-left: 15px;
+  position: relative;
+}
+
+.indicatorDiv.positive::before {
+  left: -2px;
+  top: -3px;
+}
+
+.indicatorDiv.negative::before {
+  left: -2px;
+  top: 7px;
+}
+
+.text-red {
+  color: var(--red) !important;
+}
+.text-white {
+  color: var(--white) !important;
+}
+.table_center thead tr th, .table_center tbody tr td {
+  text-align: center;
+  vertical-align: middle;
+}

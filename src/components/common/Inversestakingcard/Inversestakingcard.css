@@ -1,0 +1,98 @@
+.defi-card {
+  width: 171px;
+  height: 171px;
+  display: flex;
+  color: var(--white);
+  padding: 0 2em;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  text-align: center;
+}
+.red-border {
+  position: relative;
+}
+.red-border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  padding: 1px;
+  background: linear-gradient(180deg, #f91402 0%, #e9001a 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.grad-border {
+  position: relative;
+  width: 100%;
+}
+.grad-border:before {
+  background: linear-gradient(180deg, #9d5aee 0%, #ff1301 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  padding: 1px;
+}
+.defi-card:hover {
+  border: 1px solid var(--black);
+  border-radius: 30px;
+  color: var(--white);
+}
+.green-border {
+  position: relative;
+}
+.green-border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  padding: 1px;
+  background: linear-gradient(180deg, #5fe37f 0%, #cefc84 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.green-grad:before {
+  background: linear-gradient(180deg, #9d5aee 0%, #84e39b 100%);
+}
+@media screen and (max-width: 1199px) {
+  .defi-card {
+    width: 150px;
+    height: 150px;
+
+    padding: 0 1em;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .defi-card {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    font-size: 14px;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .deficol {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.inputLabel_style {
+  margin-bottom: 25px;
+}
+.inputLabel_style label {
+  font-family: var(--baseFont);
+  color: var(--baseFont);
+  font-size: 16px;
+}
+.inputLabel_style .form-control {
+  border-radius: 25px;
+  background: transparent;
+  color: #fff;
+  font-family: var(--baseFont);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.inputLabel_style select {
+  appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../../../theme/images/arrow-down.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center right 20px !important;
+}
+select option {
+  color: black;
+}

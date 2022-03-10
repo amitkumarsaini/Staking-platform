@@ -1,0 +1,61 @@
+.login_screen {
+  background: var(--cardBg);
+  border-radius: 4px;
+  border: 2px solid var(--disconnectWallet);
+  padding: 20px 30px;
+  width: 600px;
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_form {
+  height: 100%;
+}
+.btn_connect_metamask {
+  background: var(--lightBg);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: (--baseFont);
+  font-size: 15px;
+  border-radius: 35px;
+  transition: all 0.25s;
+}
+.loginInput_style {
+  height: 45px;
+  width: 100%;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid var(--connectWallet);
+  outline: none;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #fff;
+}
+.btn_connect_metamask:hover {
+  color: var(--white);
+  background: var(--btnBgDark);
+}
+.btn_connect_metamask img {
+  margin-right: 10px;
+}
+.btnLogin_style {
+  width: 250px;
+}
+@media screen and (max-width: 991px) {
+  .login_form .logo {
+    margin-left: 0 !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .login_screen {
+    padding: 20px 10px;
+  }
+  .btn_connect_metamask {
+    padding: 10px 15px;
+  }
+}

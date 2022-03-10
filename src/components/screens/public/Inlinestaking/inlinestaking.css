@@ -1,0 +1,7 @@
+.green-border {
+  position: relative;
+}
+.linkGroup_style li.inline-tab a {
+  background: linear-gradient(90deg, #5fe37f 10.48%, #171821 100%);
+  z-index: 5555;
+}

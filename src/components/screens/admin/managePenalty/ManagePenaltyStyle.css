@@ -1,0 +1,11 @@
+.day_heading{
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+.day_heading .day_heading_title{
+    font-family: var(--baseFont);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--connectWallet);
+    border-bottom: 1px solid var(--tableHeaderBorder);
+}    

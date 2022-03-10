@@ -1,0 +1,122 @@
+@import url("../../../../index.css");
+
+.faq .accordion-item {
+  background-color: var(--faqTab);
+  border: none;
+  margin-bottom: 5px;
+  list-style: decimal;
+  color: var(--textcolor);
+  font-size: 43px;
+  counter-increment: listStyle;
+  list-style: none;
+  position: relative;
+}
+.faq li.accordion-item:nth-child(even) {
+  background: var(--faqbody);
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+.faq .accordion-button {
+  background-color: var(--faqbody);
+  padding: 1.8rem 9rem;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: unset;
+}
+.faq .accordion-button:focus {
+  box-shadow: unset;
+}
+
+.faq .accordion-collapse.collapsing {
+  background-color: var(--faqbody);
+}
+.faq .accordion-collapse.collapse {
+  background-color: var(--faqbody);
+}
+.faq .accordion-body {
+  padding: 0rem 9rem 2rem;
+  font-size: 14px;
+  color: var(--white);
+}
+.faq .accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+.faq h2.accordion-header {
+}
+
+.faq .accordion-item:before {
+  content: counter(listStyle, upper-decimal);
+  left: 50px;
+  color: var(--sidebarLink);
+  font-size: 43px;
+  counter-increment: section;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  font-weight: bold;
+  z-index: 9;
+}
+
+@media screen and (max-width: 991px) {
+  .faq .accordion-item:before {
+    font-size: 25px;
+    top: 20px;
+  }
+  .faq .accordion-button {
+    padding: 1.8rem 5rem;
+  }
+  .faq .accordion-body {
+    padding: 0rem 5rem 2rem;
+  }
+  .faq .accordion-button {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .faq .accordion-item:before {
+    font-size: 18px;
+    top: 25px;
+    left: 10px;
+  }
+  .faq .accordion-button {
+    padding: 1.8rem 1.8rem;
+  }
+  .faq .accordion-body {
+    padding: 0rem 1.8rem 2rem;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .faq .accordion-button {
+    font-size: 15px;
+    padding: 1rem 1.8rem;
+  }
+}
+
+/* .paq_li{
+  list-style: none;
+  padding: 0 30px!important;
+} */
+
+.paq_li li{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+  padding-left: 1.25rem;
+}
+.paq_li li:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.paq_li p{
+  margin-bottom: 0;
+}

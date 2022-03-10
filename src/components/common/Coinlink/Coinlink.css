@@ -1,0 +1,119 @@
+.coin-group li {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 105px;
+  align-items: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--lightText);
+  width: 50%;
+}
+.redactive .css-1n7v3ny-option {
+  background-color: #971610 !important;
+  color: #fff !important;
+}
+.greenactive .css-1n7v3ny-option {
+  background-color: #5fe37f !important;
+  color: #fff !important;
+}
+.coin-group li:nth-child(2) {
+  right: 0;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+.linkGroup_style li.nft-tab {
+  background: var(--redtable-border);
+  overflow: visible;
+}
+.nft-tab > div {
+  width: 190px;
+}
+.css-tj5bde-Svg {
+  fill: white !important;
+}
+.linkGroup_style li.coin-tab {
+  background: linear-gradient(90deg, #5fe37f 10.48%, #171821 100%);
+  z-index: 5555;
+}
+.css-2b097c-container {
+  width: 100%;
+}
+.coin-group {
+  overflow: visible;
+}
+.css-yk16xz-control {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.css-1wa3eu0-placeholder {
+  color: var(--white) !important;
+}
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+/* .css-tlfecz-indicatorContainer {
+  color: var(--white) !important;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+} */
+.css-1pahdxg-control {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: unset !important;
+}
+.css-26l3qy-menu {
+  background-color: #171821 !important;
+}
+.css-9gakcf-option {
+  background-color: transparent !important;
+}
+.css-1uccc91-singleValue {
+  color: var(--white) !important;
+}
+.css-1n7v3ny-option {
+  background-color: transparent !important;
+}
+.coin-group {
+  overflow: visible;
+  z-index: 9;
+}
+
+.css-26l3qy-menu {
+  width: 100% !important;
+  margin-top: 27px !important;
+}
+.css-4ljt47-MenuList {
+  font-size: 16px;
+  color: var(--white);
+}
+.css-9gakcf-option {
+  color: currentColor !important;
+}
+@media screen and (max-width: 1199px) {
+  .coin-group li {
+    height: 80px;
+    font-size: 20px;
+  }
+  .css-tlfecz-indicatorContainer {
+    left: 30%;
+  }
+  .coin-group li:nth-child(2) {
+    right: -46%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .coin-group li {
+    width: 100%;
+  }
+  .css-tlfecz-indicatorContainer {
+    left: auto;
+    right: 0;
+  }
+  .coin-group li {
+    font-size: 16px;
+  }
+}

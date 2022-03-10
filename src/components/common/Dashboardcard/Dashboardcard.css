@@ -1,0 +1,37 @@
+.red-card {
+  background: linear-gradient(90deg, #ff1301 0.36%, #171821 95.6%);
+}
+.green-card {
+  background: linear-gradient(90deg, #5fe37f 10.48%, #171821 100%);
+}
+.purple-card {
+  background: linear-gradient(90deg, #9d5aee 0.36%, #171821 95.6%);
+}
+.dash-card {
+  box-shadow: 0px 18px 14px rgba(0, 0, 0, 0.14);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 42px;
+  margin: 0 15px;
+  width: 31%;
+}
+.dash-left h3 {
+  font-size: 25px;
+  line-height: 29px;
+  margin: 0;
+  font-weight: 700;
+}
+.dash-left h4 {
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+  font-weight: 700;
+}
+.dash-left p {
+  font-size: 43px;
+  line-height: 50px;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+}

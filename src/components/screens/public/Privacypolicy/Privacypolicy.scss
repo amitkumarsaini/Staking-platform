@@ -1,0 +1,31 @@
+.privacy-policy {
+  p {
+    font-size: 13px;
+    line-height: 21px;
+
+    &:last-child {
+      margin-bottom: 10px;
+    }
+  }
+  a {
+    color: #d1332d;
+    &:hover {
+      color: #fff;
+    }
+  }
+  strong {
+    color: #d1332d;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  h4 {
+    text-transform: capitalize;
+  }
+  ul {
+    padding-left: 30px;
+    margin: 10px 0;
+    li {
+      list-style: disc;
+    }
+  }
+}
